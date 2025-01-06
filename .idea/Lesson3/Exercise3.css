@@ -1,0 +1,85 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+#amenhotep {
+    background-color: rgb(238, 214, 97);
+
+}
+
+#imhotep {
+    background-color: rgb(128, 62, 225);
+}
+
+#anubis {
+    background-color: rgba(197, 5, 153, 0.81);
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.center-up {
+    height: 20vh;
+    /*    background-color: #f5edea;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 20vh;
+    /*            background-color: #29299b;*/
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /*            padding-top: 30px;
+                font-size: 50px;*/
+}
+
+.textspan {
+    /*    padding-top: 40px;*/
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+.textp {
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    height: 60vh;
+    /*            background-color: #29299b;*/
+    text-align: center;
+    line-height: 1.7;
+
+
+}
+
+.footer {
+    height: 20vh;
+    /*    background-color: #f5edea;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
